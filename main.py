@@ -66,7 +66,7 @@ for generation in range(num_generations):
         plt.ylabel('Score')
         plt.xlabel('Generation')
         plt.show()
-        fig.savefig("C:\\Users\\Suae\\Desktop\\img\\Generation{}.png".format(MS), dpi=fig.dpi, bbox_inches='tight', pad_inches=0.5)
+        fig.savefig("Generation{}.png".format(MS), dpi=fig.dpi, bbox_inches='tight', pad_inches=0.5)
         from tkinter import *
         window=Tk()
         lbl=Label(window, text="Max Score is {}".format(MS), fg='red', font=("Helvetica", 16))
