@@ -155,8 +155,19 @@ def play_game(snake_start, snake_position, apple_position, button_direction, sco
     """เล่นเกม."""
     crashed = False
     while not crashed:
+        # for event in pygame.event.get():
+        #     if event.type == pygame.QUIT:
+        #         crashed = True
+        # display.fill((255, 255, 255))
+
+        # display_apple(apple_position, display)
+        # display_snake(snake_position, display)
         snake_position, apple_position, score = generate_snake(
             snake_start, snake_position, apple_position, button_direction, score, snake_motion)
+
+        # pygame.display.set_caption("SCORE: " + str(score))
+        # pygame.display.update()
+        # clock.tick(50000) #50000
         return snake_position, apple_position, score
 
 def max_end_score(score, maxscore):

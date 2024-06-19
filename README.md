@@ -14,7 +14,6 @@ This project was developed by students from Panyapiwat Institute of Management.
 - [Genetic Algorithm](#genetic-algorithm)
 - [Game Mechanics](#game-mechanics)
 - [Visualization](#visualization)
-- [Example](#Example)
 
 ## Installation
 
@@ -95,5 +94,3 @@ After the genetic algorithm finishes running, the results are visualized using m
 - Max Score per Generation: The maximum score achieved by any individual in each generation.
 - Average Score per Generation: The average score of all individuals in each generation.
 A Tkinter window displays the final maximum score and run time.
-
-## Example

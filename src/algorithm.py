@@ -91,3 +91,4 @@ def mutation(offspring_crossover):
             random_value = np.random.choice(np.arange(-1, 1, step=0.01), size=(1), replace=False)
             offspring_crossover[idx, i] += random_value
     return offspring_crossover
+

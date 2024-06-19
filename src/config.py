@@ -13,6 +13,7 @@ display=0
 clock=0
 
 # neural_Network
-NN = [7, 18, 18, 4] 
+NN = [ 7, 18, 18, 4 ] 
 NN_S = [] 
+W = []
 valur_NN = 0 
