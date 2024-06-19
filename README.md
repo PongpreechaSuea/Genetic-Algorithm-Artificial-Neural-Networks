@@ -96,3 +96,4 @@ After the genetic algorithm finishes running, the results are visualized using m
 - Average Score per Generation: The average score of all individuals in each generation.
 A Tkinter window displays the final maximum score and run time.
 
+## Example

@@ -4,7 +4,7 @@ import random
 import math
 import numpy as np
 import pygame
-from config import *
+from src.config import *
 
 """
 LEFT -> button_direction = 0

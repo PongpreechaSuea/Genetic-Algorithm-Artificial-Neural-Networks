@@ -2,9 +2,9 @@
 
 import numpy as np
 import random
+from random import randint
 from src.run import run_game_with_ML
 from src.config import display, clock
-from random import randint
 
 def cal_pop_fitness(pop, NN_S, snake_motion, display_width, display_height, MS, SC):
     """
